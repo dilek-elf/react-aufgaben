@@ -23,6 +23,14 @@ export default function App() {
       <div className="flex flex-col items-center justify-center min-h-screen gap-6">
         <p>{picked || "click the button"} </p>
         <Button onClick={pickName} />
+
+        {/* Names List */}
+        <ul>
+          {names.map((name, index) => (
+            <li key={index}>{name}</li>
+          ))}
+        </ul>
+
       </div>
     </div>
   );
