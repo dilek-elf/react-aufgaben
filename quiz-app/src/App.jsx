@@ -4,7 +4,7 @@
 import { useState } from 'react'
 import QuestionCard from './components/QuestionCard'
 
-// my quiz data is an array of question objects
+// myy quiz data is an array of question objects
 // each object has a question text, an array of answers and the correct answer
 // 10 quiz questions about everything I have learned in React so far
 const questions = [
@@ -120,7 +120,8 @@ export default function App() {
               answers={questions[currentIndex].answers}
               onAnswer={handleAnswer}
               selectedAnswer={selectedAnswer}
-            />
+              correctAnswer={questions[currentIndex].correct}
+              />
 
             {/* only show Next button after an answer was selected */}
             {selectedAnswer && (
