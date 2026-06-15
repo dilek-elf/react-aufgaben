@@ -37,13 +37,13 @@ function DestinationsPage() {
         <Link to="/destinations/" search={{ continent: undefined }} className="btn btn-sm">
           All
         </Link>
-        <Link to="/destinations/" search={{ continent: 'europe' }} className="btn btn-sm">
+        <Link to="/destinations/" search={{ continent: 'Europe' }} className="btn btn-sm">
           Europe
         </Link>
-        <Link to="/destinations/" search={{ continent: 'asia' }} className="btn btn-sm">
+        <Link to="/destinations/" search={{ continent: 'Asia' }} className="btn btn-sm">
           Asia
         </Link>
-        <Link to="/destinations/" search={{ continent: 'africa' }} className="btn btn-sm">
+        <Link to="/destinations/" search={{ continent: 'Africa' }} className="btn btn-sm">
           Africa
         </Link>
       </div>

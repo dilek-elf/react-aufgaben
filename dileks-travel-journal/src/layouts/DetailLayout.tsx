@@ -1,6 +1,5 @@
 import type { ReactNode } from 'react'
 
-// This layout shows main content on the left and a sidebar on the right
 // It receives the page content (children) and the sidebar info as props
 type DetailLayoutProps = {
   children: ReactNode

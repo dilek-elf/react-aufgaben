@@ -1,7 +1,7 @@
 import { Outlet } from '@tanstack/react-router'
 import Navbar from '../components/organisms/NavBar'
 
-// This is our main layout — Navbar + page content + Footer
+// This is my main layout — Navbar + page content + Footer
 // Every page will be wrapped inside this layout
 function RootLayout() {
   return (

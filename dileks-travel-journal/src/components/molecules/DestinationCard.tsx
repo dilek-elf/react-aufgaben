@@ -2,8 +2,7 @@ import { Link } from '@tanstack/react-router'
 import Badge from '../atoms/Badge'
 import type { Destination } from '../../data/destinations'
 
-// DestinationCard combines an image, title, description and a Badge
-// This is a "molecule" has been built from smaller atoms like (Badge)
+// This is a "molecule" has been built from smaller atoms like (Badge, title) a bit bigger then atom :D
 type DestinationCardProps = {
   destination: Destination
 }

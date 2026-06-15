@@ -8,13 +8,13 @@ export const Route = createFileRoute('/destinations/$destinationId')({
 })
 
 function DestinationDetailPage() {
-  // useParams gives us access to the dynamic part of the URL
+  // useParams gives me access to the dynamic part of the URL
   const { destinationId } = Route.useParams()
 
-  // we find the destination that matches the id from the URL
+  // I find the destination that matches the id from the URL
   const destination = destinations.find((dest) => dest.id === destinationId)
 
-  // if no destination matches, show a message
+  // if no destination matches, then show a message
   if (!destination) {
     return <p>Destination not found.</p>
   }
